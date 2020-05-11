@@ -1,0 +1,49 @@
+# java中如何将string 转化成long（String是否为null，或者空）
+
+## toString() -- 也要判断是否为空 ，null
+
+```java
+1.java中如何将string 转化成long
+
+long l = Long.parseLong([String]);
+
+或 
+
+long l = Long.parseLong([String],[int radix]); 
+
+long l = Long.valueOf("123").longValue();
+
+2.Long.ValueOf("String")与Long.parseLong("String")的区别
+
+Long.ValueOf("String")返回Long包装类型
+
+Long.parseLong("String")返回long基本数据类型
+```
+
+
+
+http://www.imooc.com/wenda/detail/428008
+
+
+
+https://www.fontke.com/tool/rgb/a1f8a1/
+
+https://blog.csdn.net/Michael_HM/article/details/78958753 - 也要判断是否为空 ，null
+
+[https://github.com/JChehe/blog/blob/master/posts/%E3%80%8AJavaScript%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%B2%BE%E8%A6%81%E3%80%8B%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0.md](https://github.com/JChehe/blog/blob/master/posts/《JavaScript面向对象精要》读书笔记.md)
+
+
+
+
+
+
+
+https://www.codota.com/code/java/methods/cn.hutool.core.util.ReflectUtil/getFields
+
+
+
+
+
+# getClass、 getSuperclass与getGenericSuperclass的含义
+
+https://blog.csdn.net/chen1026241686/article/details/91973200
